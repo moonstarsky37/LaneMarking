@@ -54,11 +54,9 @@ If you find this code useful for your work or use it in your project, please con
 [paper link](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2-W13/1089/2019/)
 
 ### Workflow
- ![alt text](demo/framework.png)
+ ![alt text](code/demo/framework.png)
 ### Image Processing
- ![alt text](demo/image_process.png)
+ ![alt text](code/demo/image_process.png)
 ### Demo
- ![alt text](demo/scenarios.png)
+ ![alt text](code/demo/scenarios.png)
  
-### Acknowledgement:
-Thanks [hibetterheyj](https://github.com/hibetterheyj) for the effort to migrate the codes on Linux.
