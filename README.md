@@ -4,8 +4,8 @@ This repository refers to https://www.int-arch-photogramm-remote-sens-spatial-in
 
 ## How to use
 1. git clone https://github.com/moonstarsky37/LaneMarking.git
-
-2. Build the repository:
+2. docker compose up
+3. Enter this container and build the repository(when you change the code in src):
 
 ```bash=
 cd code
