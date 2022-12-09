@@ -1,9 +1,9 @@
 version: '3'
 services:
-  LaneMarkingExtract:
+  lane-marking-extraction:
     build: .
     volumes:
       - ./code:/code/
       - ./data:/data
     tty: true
-    container_name: LaneMarkingExtraction
+    container_name: lane-marking-extraction
