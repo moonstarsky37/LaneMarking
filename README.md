@@ -1,6 +1,21 @@
 # LaneMarking
 This repository refers to https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2-W13/1089/2019 ,which a C++ implementation of the automatic extraction, classification and vectorization of road markings from MLS point cloud. You can developement with docker(-compose) in this repository.
 
+## Real case 1: Penghu test
+* Original Point Cloud
+![alt text](code/demo/001.png)
+* Processed (brid view)
+![alt text](code/demo/002.png)
+* Processed (side view)
+![alt text](code/demo/003.png)
+* Classification (side view 1)
+![alt text](code/demo/004.png)
+* Classification (side view 2)
+![alt text](code/demo/005.png)
+* Classification (bird view)
+![alt text](code/demo/006.png)
+* Each candidate block
+![alt text](code/demo/007.png)
 
 ## How to use
 ```bash=
@@ -77,5 +92,3 @@ If you find this code useful for your work or use it in your project, please con
  ![alt text](code/demo/image_process.png)
 ### Demo
  ![alt text](code/demo/scenarios.png)
- 
-
