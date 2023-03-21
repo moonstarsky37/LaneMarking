@@ -6,8 +6,23 @@ This repository refers to https://www.int-arch-photogramm-remote-sens-spatial-in
 ```bash=
 git clone https://github.com/moonstarsky37/LaneMarking.git
 cd LaneMarking
+docker compose build
 docker compose up
 ```
+* If build fail, check the swap size not smaller than 4G.
+The following command is how to change the swap size.
+```bash=
+sudo swapon --show
+df -h
+sudo swapoff -a
+sudo fallocate -l 4G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo swapon --show
+free -h
+```
+
 * Enter this container (by docker exec or vs-code remote container) 
 Then build the repository(when you first use or change the code in src):
 ```bash=
@@ -63,3 +78,4 @@ If you find this code useful for your work or use it in your project, please con
 ### Demo
  ![alt text](code/demo/scenarios.png)
  
+

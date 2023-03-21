@@ -1,9 +1,12 @@
-# single_file=/data/220718_174955.las
-single_file=/data/220718_174955.las
-#dummy_folder/dummy_file.las
+#!/bin/bash
 
-#road_type=highway
-#road_type=urban
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <single_file>"
+    exit 1
+fi
+
+single_file=$1
+
 road_type=penghu
 
 #gdb --args 
